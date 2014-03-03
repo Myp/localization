@@ -1,0 +1,18 @@
+apply plugin: 'java'
+
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'org.springframework:spring-context:4.0.2.RELEASE'
+    compile 'org.aspectj:aspectjrt:1.7.4'
+    compile 'org.springframework:spring-aop:4.0.2.RELEASE'
+    runtime 'org.aspectj:aspectjweaver:1.7.4'
+
+
+
+}
